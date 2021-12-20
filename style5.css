@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #111;
+  color: white;
+  font-family: serif;
+}
+
+header{
+  background: url("lulu.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  object-fit: contain;
+  height: 448px;
+  overflow: hidden;
+}
+h2{
+  text-align: center;
+  overflow: hidden;
+}
+a{
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+p{
+  margin-top: 2rem;
+  margin-bottom:2rem;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+  #load{
+  position: relative;
+  left: 42%;
+  bottom:5rem;
+  width: 60px;
+  height:60px;
+  border: solid 2px rgba(0,0,0,0.18);
+  border-left-color: red;
+  border-radius: 50%;
+  animation: load 2.2s linear infinite;
+  color:red;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-name: a;
+  -webkit-animation-duration:3s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-delay:2.1s;
+}
+@keyframes load{
+  to{transform: rotate(360deg);}
+ 
+}
+
+@-webkit-keyframes a{
+  50%{rotate(360deg)}
+  100%{border:none }
+}
