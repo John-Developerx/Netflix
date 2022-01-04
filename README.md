@@ -11,4 +11,4 @@
 
 <h2> Technologies used </h2>
 
-<P> HTML5 | CSS3 </p>
+<P> HTML5 | CSS3. </p>
